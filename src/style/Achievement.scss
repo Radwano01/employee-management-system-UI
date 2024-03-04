@@ -1,0 +1,67 @@
+.achievement{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+
+    .title{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .list {
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+    
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          font-size: 1.4rem;
+          overflow-y: scroll;
+    
+          thead {
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
+          }
+    
+          th {
+            border: 1px solid white;
+          }
+    
+          th,
+          td {
+            vertical-align: top;
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid rgb(226, 226, 226);
+          }
+    
+          .task-td {
+            width: 30%;
+          }
+    
+    
+          td {
+            input {
+              width: 50px;
+              padding: 3px 5px;
+              margin-right: 10px;
+            }
+    
+            button {
+              border: none;
+              background-color: transparent;
+              margin-left: 10px;
+              cursor: pointer;
+            }
+          }
+    
+    
+          tr:nth-child(even) {
+            background-color: #eee;
+            color: black;
+          }
+        }
+      }
+
+}

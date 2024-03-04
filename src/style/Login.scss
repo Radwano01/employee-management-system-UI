@@ -1,0 +1,49 @@
+.login{
+    background-image: url("../assets/login-background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+
+    .board{
+        background-color: rgba(0, 0, 255, 0.418);
+        padding: 30px 60px 30px 25px;
+        border-radius: 5px;
+
+        .inputs{
+            form{
+                .input{
+                    margin: 15px 0;
+                    input{
+                        padding: 7px 70px 7px 5px;
+
+
+                    }
+
+                    .checkbox{
+                        display: flex;
+                        margin-top: 10px;
+
+                        h5{
+                            padding-left: 5px;
+                        }
+                    }
+                }
+            }   
+
+            button{
+                padding: 7px 15px;
+                border: 0;
+                border-radius: 2px;
+                background-color: green;
+                color: white;
+                margin-top: 15px;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+
+}

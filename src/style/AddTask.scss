@@ -1,0 +1,44 @@
+.add-task{
+    margin-top: 20px;
+    padding: 20px;
+
+    .title{
+        text-align: center;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10vh 0;
+        form {
+            background-color: white;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            flex-direction: column;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5%;
+
+            input {
+                padding: 5px 15px 5px 5px;
+                margin: 10px;
+            }
+
+            textarea{
+                padding: 5px 15px 5px 5px;
+                margin: 10px;
+            }
+
+            button {
+                border: none;
+                padding: 5px 15px;
+                color: white;
+                background-color: green;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+        }
+    }
+}

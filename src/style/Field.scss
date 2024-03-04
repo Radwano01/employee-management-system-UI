@@ -1,0 +1,75 @@
+.field{
+    margin-top: 10px;
+
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    button{
+        margin: 7px;
+        padding: 10px 20px;
+        border: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .wrapper{
+        padding: 50px;
+        .list{
+            width: 70%;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: white;
+
+            .map-data{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 15px;
+                border-bottom: 1px solid rgb(226, 226, 226);
+
+                .actions{
+                    display: flex;
+
+                    button{
+                        border: none;
+                        padding: 8px 15px;
+                        margin: 3px;
+                        cursor: pointer;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+
+        .pagination {
+            display: flex;
+            list-style: none;
+            padding: 0;
+          
+            li {
+              margin: 0 5px;
+          
+              button {
+                padding: 5px 10px;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                color: #333;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+          
+                &:hover {
+                  background-color: #ccc;
+                  color: #fff;
+                }
+              }
+            }
+          }
+          
+    }
+}

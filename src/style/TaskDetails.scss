@@ -1,0 +1,22 @@
+.task-details{
+    margin-top: 10px;
+    .title{
+        text-align: center;
+    }
+    .task-detail{
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+        .details{
+            padding: 20px;
+
+            h3{
+                padding: 40px;
+            }
+        }
+    }
+}

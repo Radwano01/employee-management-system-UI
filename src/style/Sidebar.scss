@@ -1,0 +1,24 @@
+.sidebar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    height: 100%;
+    width: 100%;
+    
+    .side{
+        margin-top: 50px;
+        .links{
+            a{
+                display: flex;
+                align-items: center;
+                margin: 70px 20px;
+                color: white;
+
+                h3{
+                    padding: 0 0 0 7px;
+                }
+            }
+        }
+}
+}

@@ -1,0 +1,18 @@
+.card{
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 25%;
+    margin: 7px;
+
+    .title{
+        text-align: center;
+        padding: 25px;
+        border-bottom: 1px solid black;
+    }
+
+    .desc{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

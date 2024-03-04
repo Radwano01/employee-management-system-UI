@@ -1,0 +1,12 @@
+.errorPage{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/errorpage-background.jpg");
+    display:flex;
+    justify-content:center;
+    color: white;
+
+    h1{
+        margin-top: 100px;
+    }
+}

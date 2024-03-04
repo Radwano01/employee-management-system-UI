@@ -1,0 +1,38 @@
+.employee-details {
+
+    margin-top: 10px;
+
+    .title {
+        text-align: center;
+    }
+
+    .calendar-direction {
+        margin: 10px;
+    }
+
+    .employee-detail {
+        width: 50%;
+        margin: 10px;
+
+
+        .details {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+
+            h3 {
+                padding: 40px;
+                border-radius: 5%;
+            }
+        }
+
+        button {
+            padding: 7px 10px;
+            color: white;
+            background-color: green;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+}

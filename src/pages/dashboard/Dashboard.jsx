@@ -14,7 +14,7 @@ const Dashboard = () => {
     const totalEmployee = data.reduce((total, employee) => {
         let num = 0;
         employee.role.map((role) => {
-            if (role.id === 1) {
+            if (role.id === 2) {
                 num++
             }
         })
